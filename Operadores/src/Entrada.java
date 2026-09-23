@@ -17,8 +17,10 @@ public class Entrada {
         System.out.println("Nombre:" +nombre);
         System.out.println("Ciclo:" +ciclo);
         System.out.println("Nota:" +nota);
+        System.out.println("Introduce el valor del examen: (PRUEBA)");
 
     }
 
 
 }
+
