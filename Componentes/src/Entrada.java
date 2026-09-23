@@ -13,6 +13,15 @@ public class Entrada {
      double altura = 1.78;
      boolean acierto = true;
      double peso = 74.6;
+     final String DNI = "123456789X";
+     //Las constantes ponerlas todas en Mayúsculas
+
+     Character letraCompleja = 'a';
+     Integer edadCompleja = 25;
+     Double pesoCompleja = 75.4;
+     Boolean aciertoCompleja = false;
+     //Con esto es complejo y al poner letraCompleja. me sale info nueva
+
 
      System.out.println("Hola Mundo");
      System.out.println("Segunda Linea");
@@ -25,15 +34,15 @@ public class Entrada {
      System.out.println("Mi edad es "+edad);
      System.out.println("El resultado es "+acierto);
      System.out.println("\nEl peso es "+peso);
+     System.out.println("El altura es "+altura);
+
 
      //Variables: String, char, byte/short/int/long, double/float, boolean
 
  }
+ 
 
     }
-
-
-
 
 
 
