@@ -18,6 +18,8 @@ public class Entrada {
         System.out.println("Ciclo:" +ciclo);
         System.out.println("Nota:" +nota);
 
+        
+
     }
 
 
