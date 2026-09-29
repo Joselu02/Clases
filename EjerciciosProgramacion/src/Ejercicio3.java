@@ -16,6 +16,7 @@ public class Ejercicio3 {
         double divisionreal = op1 / op2;
         double moduloreal = op1 % op2;
 
+        System.out.println("Resultados: \n");
         System.out.println("Suma: " + suma);
         System.out.println("Resta: " + resta);
         System.out.println("Multiplicacion: " + multiplicacion);
