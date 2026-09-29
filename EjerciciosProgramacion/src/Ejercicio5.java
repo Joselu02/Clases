@@ -11,6 +11,7 @@ public class Ejercicio5 {
         // 1 hora -> 3600s
         // 1 hora -> 60 mins
         // 1 minuto -> 60 segs
+        lector.close();
 
         //34567 segs ejemplo
 

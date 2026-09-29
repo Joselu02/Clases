@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
+        System.out.println("Calculo de area y longitud circunferencia");
         System.out.println("Que radio tiene el circulo");
         double radio = lector.nextDouble();
         lector.close();
