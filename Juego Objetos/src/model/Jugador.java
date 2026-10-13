@@ -2,9 +2,9 @@ package model;
 
 public class Jugador {
     //Atributos -> variables que cualifican
-    public String nombre,correo;
-    public int vidas,habilidad;
-    public boolean estrella;
+    private String nombre,correo;
+    private int vidas,habilidad;
+    private boolean estrella;
 
     //Contructores -> Hace realidad el objeto
     public Jugador(){
@@ -23,6 +23,14 @@ public class Jugador {
         this.estrella = estrella;
     }
 
+    public Jugador(String nombre, int vidas, int habilidad, boolean estrella, String correo) {
+        this.nombre = nombre;
+        this.vidas = vidas;
+        this.habilidad = habilidad;
+        this.estrella = estrella;
+        this.correo = correo;
+    }
+
     public Jugador(String nombre, int vidas) {
         this.nombre = nombre;
         this.vidas = vidas;
@@ -39,6 +47,10 @@ public class Jugador {
         System.out.printf("Tengo %d vidas\n",vidas);
     }
 
+    public void saludar(String mensaje){
+        System.out.println(mensaje);
+    }
+
     public void recibirImpacto() {
         if (vidas==0){
             System.out.println("Estoy muerto");
@@ -47,6 +59,35 @@ public class Jugador {
         } else {
             vidas--;
         }
+    }
+
+    public void setNombre(String nombre) {
+        if (nombre.equals("Bartolito") || nombre.equals("Bartolito") || nombre.length()==0){
+            System.out.println("No se permite el cambio");
+        } else {
+
+            this.nombre = nombre;
+        }
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public boolean isEstrella() {
+        return estrella;
+    }
+
+    public int getVidas() {
+        return vidas;
+    }
+
+    public int getHabilidad() {
+        return habilidad;
     }
 }
 
