@@ -27,10 +27,27 @@ public class Jugador {
         this.nombre = nombre;
         this.vidas = vidas;
     }
+
+    public Jugador(String nombre, String correo) {
+        this.nombre = nombre;
+        this.correo = correo;
+    }
     //metodos -> funcionalidades
 
     public void saludar(){
         System.out.println("Hola me llamo "+nombre);
         System.out.printf("Tengo %d vidas\n",vidas);
     }
+
+    public void recibirImpacto() {
+        if (vidas==0){
+            System.out.println("Estoy muerto");
+        } else if (vidas < 0){
+            System.out.println("Para, ya estoy muerto");
+        } else {
+            vidas--;
+        }
+    }
 }
+
+

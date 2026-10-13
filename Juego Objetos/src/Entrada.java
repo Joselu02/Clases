@@ -21,7 +21,20 @@ public class Entrada {
 
         Jugador jugador3 = new Jugador("Marcos",7);
 
+        Jugador jugador4 = new Jugador("Borja", "borja@gmail.com");
+
+        Jugador jugador5 = new Jugador();
+
         jugador1.saludar();
+        jugador2.saludar();
+
+        jugador2.recibirImpacto();
+        jugador2.recibirImpacto();
+        jugador2.recibirImpacto();
+
+        jugador2.saludar();
+
+
 
     }
 }
