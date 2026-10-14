@@ -10,10 +10,12 @@ public class Calculadora {
     private String tipoOperacion;
 
     //constructores -> el vacio lo tengo por defecto
+
     public Calculadora(){}
 
     //metodos
         //suma, resta, multiplica, divide, modulo
+
     public void sumar(int operando1, int operando2){
         this.operando1 = operando1;
         this.operando2 = operando2;
